@@ -6,7 +6,8 @@
   "repository": "git@github.com:julienlocatelli/kata-bowling.git",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage && open coverage/lcov-report/index.html"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
